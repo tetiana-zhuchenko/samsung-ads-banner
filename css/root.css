@@ -10,10 +10,6 @@
   --font-primary: 'Samsung Sharp Sans', sans-serif;
   --font-secondary: 'SamsungOne', sans-serif;
 
-  /* 
-  DELETE LATE
-  --font-secondary-700: 'SamsungOne-700', sans-serif; */
-
   --container-width: 113.9rem;
   --container-height: 63.77rem;
   --img-width: 52.7rem;
@@ -54,6 +50,8 @@ body {
   background-image: var(--bg-img);
   background-repeat: no-repeat;
   background-size: cover;
+  /* For correct Swiper work */
+  /* min-width: 0; */
 }
 
 @media only screen and (max-width: 1162px) {

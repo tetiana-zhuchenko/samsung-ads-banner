@@ -4,6 +4,8 @@
   align-items: center;
   justify-content: space-around;
   padding: 1rem;
+  /* For correct Swiper work */
+  /* min-width: 0; */
 }
 
 .general-wrapper {

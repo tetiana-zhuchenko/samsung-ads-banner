@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Samsung STORE</title>
+    <!-- Swiper CSS -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./css/root.css" />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/page.css" />
@@ -14,22 +20,20 @@
     <link rel="stylesheet" href="./css/frame-5.css" />
     <link rel="stylesheet" href="./css/frame-6.css" />
     <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/slides.css" />
+
     <!-- Fonts -->
     <link
       href="https://fonts.cdnfonts.com/css/samsung-sharp-sans"
       rel="stylesheet"
     />
     <link href="https://fonts.cdnfonts.com/css/samsungone" rel="stylesheet" />
-
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
   </head>
   <body class="body">
     <!-- GSAP -->
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <!-- App -->
-    <script src="./app.js" type="module" defer></script>
+
     <header class="header"></header>
     <main class="main">
       <div class="general-wrapper">
@@ -54,12 +58,6 @@
             </p>
           </div>
           <div class="frame-1__discount">
-            <!-- <h1 class="frame-1__discount-title-bold">
-              BE<span class="frame-1__discount-title-reg">SPOKE</span> Jet<sup
-                class="frame-1__discount-sup"
-                >TM</sup
-              >
-            </h1> -->
             <h1 class="frame-1__discount-title-bold">
               BE<span class="frame-1__discount-title-reg">SPOKE</span> Jet™
             </h1>
@@ -83,6 +81,7 @@
           </div>
         </div>
         <!-- Frame 1 -->
+
         <div class="tempprary-for-dev">
           <img
             class="logo-samsung"
@@ -116,164 +115,222 @@
             alt="bespoke jet logo"
           />
         </div>
+        <!-- Swiper -->
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <!-- Frame 2 -->
+            <div class="swiper-slide frame-2">
+              <div class="frame-2__about">
+                <p class="frame-2__about-text">
+                  “The first time I used the Samsung Bespoke Jet™,
+                </p>
+                <p class="frame-2__about-text">
+                  I cried. I’m not being sensational; I really did.
+                </p>
+                <p class="frame-2__about-text">
+                  Of course, this vacuum worked great.
+                </p>
+                <p class="frame-2__about-text">
+                  But that’s not all.”
+                  <a
+                    class="frame-2__about-link"
+                    href="./pages/read-more.html"
+                    target="_blank"
+                    >Read more...</a
+                  >
+                </p>
+              </div>
 
-        <!-- Frame 2 -->
-        <div class="frame-2">
-          <div class="frame-2__about">
-            <p class="frame-2__about-text">
-              “The first time I used the Samsung Bespoke Jet™,
-            </p>
-            <p class="frame-2__about-text">
-              I cried. I’m not being sensational; I really did.
-            </p>
-            <p class="frame-2__about-text">
-              Of course, this vacuum worked great.
-            </p>
-            <p class="frame-2__about-text">
-              But that’s not all.”
-              <a
-                class="frame-2__about-link"
-                href="./pages/read-more.html"
-                target="_blank"
-                >Read more...</a
-              >
-            </p>
+              <img
+                class="frame-2__main-img"
+                src="./images/frames/frame_2.jpg"
+                alt="vacuum"
+              />
+            </div>
+            <!-- Frame 2 -->
+
+            <!-- Frame 3 -->
+            <div class="swiper-slide frame-3">
+              <div class="frame-3__about">
+                <p class="frame-3__about-text">
+                  “If you’re an over-cleaner, like myself, you’ll nerd
+                </p>
+                <p class="frame-3__about-text">
+                  out on all of the functions. If you avoid this chore
+                </p>
+                <p class="frame-3__about-text">
+                  at all costs, you’ll appreciate how simple
+                </p>
+                <p class="frame-3__about-text">
+                  Samsung makes it.”
+                  <a
+                    class="frame-3__about-link"
+                    href="./pages/read-more.html"
+                    target="_blank"
+                    >Read more...</a
+                  >
+                </p>
+              </div>
+              <img
+                class="frame-3__main-img"
+                src="./images/frames/frame_3.jpg"
+                alt="vacuum"
+              />
+            </div>
+            <!-- Frame 3 -->
+
+            <!-- Frame 4 -->
+            <div class="swiper-slide frame-4">
+              <div class="frame-4__about">
+                <p class="frame-4__about-text">
+                  “Both the floor and pet hair attachments are
+                </p>
+                <p class="frame-4__about-text">
+                  cleverly designed to eliminate the dreaded hair
+                </p>
+                <p class="frame-4__about-text">
+                  wrap. (In other words, you’ll never have to tackle
+                </p>
+                <p class="frame-4__about-text">
+                  hair tangles with a pair of scissors again.)”
+                </p>
+                <p class="frame-4__about-text">
+                  <a
+                    class="frame-4__about-link"
+                    href="./pages/read-more.html"
+                    target="_blank"
+                    >Read more...</a
+                  >
+                </p>
+              </div>
+              <img
+                class="frame-4__main-img"
+                src="./images/frames/frame_4.jpg"
+                alt="vacuum"
+              />
+            </div>
+            <!-- Frame 4 -->
+
+            <!-- Frame 5 -->
+            <div class="swiper-slide frame-5">
+              <div class="frame-5__about">
+                <p class="frame-5__about-text">
+                  “When I learned the Samsung Bespoke Vac cleaner itself
+                </p>
+                <p class="frame-5__about-text">
+                  with amazing technology, that's when I cried. No more
+                </p>
+                <p class="frame-5__about-text">
+                  scraping spider legs and hair out of the crevices with my
+                </p>
+                <p class="frame-5__about-text">
+                  hands. Its suction power is so strong, the canister is left
+                </p>
+                <p class="frame-5__about-text">
+                  perfectly clean after every use. It's like a vacuum for your
+                </p>
+                <p class="frame-5__about-text">
+                  vacuum.”
+                  <a
+                    class="frame-5__about-link"
+                    href="./pages/read-more.html"
+                    target="_blank"
+                    >Read more...</a
+                  >
+                </p>
+              </div>
+              <img
+                class="frame-5__main-img"
+                src="./images/frames/frame_5.jpg"
+                alt="vacuum"
+              />
+            </div>
+            <!-- Frame 5 -->
+
+            <!-- Frame 6 -->
+            <div class="swiper-slide frame-6">
+              <div class="frame-6__about">
+                <p class="frame-6__about-text">
+                  “Because it’s so nice-looking, it can live right in the
+                </p>
+                <p class="frame-6__about-text">
+                  kitchen. No more hauling a vacuum up and down
+                </p>
+                <p class="frame-6__about-text">
+                  the basement stairs on the daily”
+                  <a
+                    class="frame-6__about-link"
+                    href="./pages/read-more.html"
+                    target="_blank"
+                    >Read more...</a
+                  >
+                </p>
+              </div>
+              <img
+                class="frame-6__main-img"
+                src="./images/frames/frame_6.jpg"
+                alt="vacuum"
+              />
+            </div>
+            <!-- Frame 6 -->
           </div>
 
-          <img
-            class="frame-2__main-img"
-            src="./images/frames/frame_2.jpg"
-            alt="vacuum"
-          />
-        </div>
-        <!-- Frame 2 -->
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
 
-        <!-- Frame 3 -->
-        <div class="frame-3">
-          <div class="frame-3__about">
-            <p class="frame-3__about-text">
-              “If you’re an over-cleaner, like myself, you’ll nerd
-            </p>
-            <p class="frame-3__about-text">
-              out on all of the functions. If you avoid this chore
-            </p>
-            <p class="frame-3__about-text">
-              at all costs, you’ll appreciate how simple
-            </p>
-            <p class="frame-3__about-text">
-              Samsung makes it.”
-              <a
-                class="frame-3__about-link"
-                href="./pages/read-more.html"
-                target="_blank"
-                >Read more...</a
-              >
-            </p>
-          </div>
-          <img
-            class="frame-3__main-img"
-            src="./images/frames/frame_3.jpg"
-            alt="vacuum"
-          />
-        </div>
-        <!-- Frame 3 -->
+          <!-- If we need navigation buttons -->
 
-        <!-- Frame 4 -->
-        <div class="frame-4">
-          <div class="frame-4__about">
-            <p class="frame-4__about-text">
-              “Both the floor and pet hair attachments are
-            </p>
-            <p class="frame-4__about-text">
-              cleverly designed to eliminate the dreaded hair
-            </p>
-            <p class="frame-4__about-text">
-              wrap. (In other words, you’ll never have to tackle
-            </p>
-            <p class="frame-4__about-text">
-              hair tangles with a pair of scissors again.)”
-            </p>
-            <p class="frame-4__about-text">
-              <a
-                class="frame-4__about-link"
-                href="./pages/read-more.html"
-                target="_blank"
-                >Read more...</a
-              >
-            </p>
+          <div class="swiper-button-prev">
+            <svg
+              fill="#000000"
+              viewBox="0 0 32 32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  d="M 19.03125 4.28125 L 8.03125 15.28125 L 7.34375 16 L 8.03125 16.71875 L 19.03125 27.71875 L 20.46875 26.28125 L 10.1875 16 L 20.46875 5.71875 Z"
+                ></path>
+              </g>
+            </svg>
           </div>
-          <img
-            class="frame-4__main-img"
-            src="./images/frames/frame_4.jpg"
-            alt="vacuum"
-          />
-        </div>
-        <!-- Frame 4 -->
+          <div class="swiper-button-next">
+            <svg
+              fill="#000000"
+              viewBox="0 0 32 32"
+              xmlns="http://www.w3.org/2000/svg"
+              transform="matrix(-1, 0, 0, 1, 0, 0)"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  d="M 19.03125 4.28125 L 8.03125 15.28125 L 7.34375 16 L 8.03125 16.71875 L 19.03125 27.71875 L 20.46875 26.28125 L 10.1875 16 L 20.46875 5.71875 Z"
+                ></path>
+              </g>
+            </svg>
+          </div>
 
-        <!-- Frame 5 -->
-        <div class="frame-5">
-          <div class="frame-5__about">
-            <p class="frame-5__about-text">
-              “When I learned the Samsung Bespoke Vac cleaner itself
-            </p>
-            <p class="frame-5__about-text">
-              with amazing technology, that's when I cried. No more
-            </p>
-            <p class="frame-5__about-text">
-              scraping spider legs and hair out of the crevices with my
-            </p>
-            <p class="frame-5__about-text">
-              hands. Its suction power is so strong, the canister is left
-            </p>
-            <p class="frame-5__about-text">
-              perfectly clean after every use. It's like a vacuum for your
-            </p>
-            <p class="frame-5__about-text">
-              vacuum.”
-              <a
-                class="frame-5__about-link"
-                href="./pages/read-more.html"
-                target="_blank"
-                >Read more...</a
-              >
-            </p>
-          </div>
-          <img
-            class="frame-5__main-img"
-            src="./images/frames/frame_5.jpg"
-            alt="vacuum"
-          />
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
         </div>
-        <!-- Frame 5 -->
-
-        <!-- Frame 6 -->
-        <div class="frame-6">
-          <div class="frame-6__about">
-            <p class="frame-6__about-text">
-              “Because it’s so nice-looking, it can live right in the
-            </p>
-            <p class="frame-6__about-text">
-              kitchen. No more hauling a vacuum up and down
-            </p>
-            <p class="frame-6__about-text">
-              the basement stairs on the daily”
-              <a
-                class="frame-6__about-link"
-                href="./pages/read-more.html"
-                target="_blank"
-                >Read more...</a
-              >
-            </p>
-          </div>
-          <img
-            class="frame-6__main-img"
-            src="./images/frames/frame_6.jpg"
-            alt="vacuum"
-          />
-        </div>
-        <!-- Frame 6 -->
+        <!-- Swiper -->
       </div>
     </main>
     <footer class="footer"></footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- App -->
+    <script src="./app.js" type="module" defer></script>
   </body>
 </html>

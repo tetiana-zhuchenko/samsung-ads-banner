@@ -1,0 +1,23 @@
+.swiper {
+  width: var(--container-width);
+  height: var(--container-height);
+}
+
+.swiper-button-prev {
+  top: 46rem;
+  left: 3.3rem;
+}
+.swiper-button-next {
+  top: 46rem;
+  left: 8.3rem;
+}
+
+.swiper-pagination-fraction {
+  top: 44.7rem;
+  left: -49.9rem;
+  color: var(--font-color-primary);
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: 2.3rem;
+  letter-spacing: -0.3rem;
+}

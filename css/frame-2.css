@@ -1,6 +1,7 @@
 .frame-2 {
   position: relative;
-  display: none;
+
+  /* display: none; */
 }
 
 /* .frame-2__logo-samsung {
@@ -94,7 +95,7 @@
   width: 100%;
   position: absolute;
   top: 0;
-  right: 0;
+  right: 0.5rem;
   z-index: 0;
 }
 

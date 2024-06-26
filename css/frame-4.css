@@ -1,6 +1,6 @@
 .frame-4 {
   position: relative;
-  display: none;
+  /* display: none; */
 }
 
 .frame-4__about {
@@ -34,6 +34,6 @@
   width: 100%;
   position: absolute;
   top: 0;
-  right: 0;
+  right: 0.5rem;
   z-index: 0;
 }
