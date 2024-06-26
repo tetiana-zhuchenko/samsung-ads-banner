@@ -1,0 +1,105 @@
+.frame-1 {
+  position: relative;
+  display: none;
+}
+
+.tempprary-for-dev {
+  /* display: none; */
+}
+
+.frame-1__logo-samsung {
+  height: 3rem;
+  position: absolute;
+  margin-top: var(--margin-left-top);
+  margin-left: var(--margin-left-top);
+  z-index: 3;
+}
+
+.frame-1__title {
+  position: absolute;
+  margin-left: var(--margin-left-top);
+  top: 11.5rem;
+  left: 0;
+  z-index: 3;
+}
+
+.frame-1__title-sup {
+  position: absolute;
+  top: 0.5rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.frame-1__title-text {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.frame-1__logo-kitchn {
+  height: 3rem;
+  padding-right: 0.5rem;
+}
+
+.frame-1__discount {
+  position: absolute;
+  top: 44rem;
+  margin-left: var(--margin-left-top);
+  color: var(--font-color-secondary);
+  z-index: 3;
+}
+
+.frame-1__discount-title-bold {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 7rem;
+}
+
+.frame-1__discount-title-reg {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 7rem;
+}
+
+.frame-1__discount-sup {
+  position: absolute;
+  top: 1.6rem;
+  font-size: 2.1rem;
+  font-weight: 700;
+}
+
+.frame-1__discount-amount {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 3.8rem;
+}
+
+.frame-1__discount-info {
+  position: absolute;
+  margin-left: var(--margin-left-top);
+  top: 60.5rem;
+  left: 0;
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--font-color-complimentary);
+  z-index: 3;
+}
+
+.frame-1__main-img {
+  max-width: var(--container-width);
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.frame-1__logo-bespoke {
+  height: 3.35rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: var(--margin-left-top);
+  z-index: 3;
+}

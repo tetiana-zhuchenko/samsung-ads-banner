@@ -1,0 +1,99 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.general-wrapper {
+  margin: auto;
+  width: var(--container-width);
+  height: var(--container-height);
+  border: 0.2rem solid var(--font-color-primary);
+  background-color: var(--bg-primary);
+  position: relative;
+}
+
+.title-read-more-page {
+  margin: 2rem;
+  text-align: center;
+  font-family: 'Samsung Sharp Sans', sans-serif;
+}
+
+.logo-samsung {
+  height: 3rem;
+  position: absolute;
+  left: 0;
+  margin-top: var(--margin-left-top);
+  margin-left: var(--margin-left-top);
+}
+
+.title {
+  position: absolute;
+  margin-left: var(--margin-left-top);
+  top: 11.5rem;
+  left: 0;
+}
+
+.title__text {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.title__sup {
+  position: absolute;
+  top: 0.5rem;
+  font-family: var(--font-primary);
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.title__logo-kitchn {
+  height: 3rem;
+  padding-right: 0.5rem;
+}
+
+.discount-link {
+  position: absolute;
+  left: 0;
+  top: 51.5rem;
+  margin-left: var(--margin-left-top);
+  text-decoration: none;
+  padding: 2rem 2rem;
+  border: 0.2rem solid var(--font-color-primary);
+  border-radius: 5rem;
+  color: var(--font-color-primary);
+  font-family: var(--font-secondary);
+  font-weight: 500;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.discount-link:hover {
+  background: var(--btn-hover);
+}
+.discount-link:active {
+  background: var(--btn-active);
+}
+
+.discount-info {
+  position: absolute;
+  margin-left: var(--margin-left-top);
+  top: 60.5rem;
+  left: 0;
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--font-color-complimentary);
+}
+
+.logo-bespoke {
+  height: 3.35rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: var(--margin-left-top);
+  z-index: 3;
+}

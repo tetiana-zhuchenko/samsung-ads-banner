@@ -1,0 +1,106 @@
+:root {
+  --bg-primary: #ffffff;
+  --bg-img: url(../images/bg.png);
+  --bg-secondary: #f1f1f1;
+
+  --font-color-primary: #000000;
+  --font-color-secondary: #ffffff;
+  --font-color-complimentary: #808080;
+
+  --font-primary: 'Samsung Sharp Sans', sans-serif;
+  --font-secondary: 'SamsungOne', sans-serif;
+
+  /* 
+  DELETE LATE
+  --font-secondary-700: 'SamsungOne-700', sans-serif; */
+
+  --container-width: 113.9rem;
+  --container-height: 63.77rem;
+  --img-width: 52.7rem;
+
+  --margin-left-top: 4rem;
+
+  --btn-hover: #ffd700;
+  --btn-active: #ffb800;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  font-size: 62.7%;
+  height: 100dvh;
+  overflow: hidden;
+}
+
+body {
+  text-rendering: optimizeSpeed;
+  color: var(--font-color-primary);
+  background: var(--bg-secondary);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: var(--bg-img);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 1162px) {
+  html,
+  body {
+    font-size: 55.7%;
+  }
+}
+
+@media only screen and (max-width: 1130px) {
+  html,
+  body {
+    font-size: 49.7%;
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  html,
+  body {
+    font-size: 40.7%;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  html,
+  body {
+    font-size: 32.7%;
+  }
+}
+
+@media only screen and (max-width: 606px) {
+  html,
+  body {
+    font-size: 28.7%;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  html,
+  body {
+    font-size: 23.7%;
+  }
+}
+
+@media only screen and (max-width: 452px) {
+  html,
+  body {
+    font-size: 16.7%;
+  }
+}

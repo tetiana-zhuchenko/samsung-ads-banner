@@ -1,0 +1,39 @@
+.frame-6 {
+  position: relative;
+  /* display: none; */
+}
+
+.frame-6__about {
+  position: absolute;
+  top: 27rem;
+  left: 0;
+  width: 42rem;
+  margin-left: var(--margin-left-top);
+  color: var(--font-color-primary);
+}
+
+.frame-6__about-text {
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: 1.6rem;
+  margin: 1rem 0;
+}
+
+.frame-6__about-link {
+  display: inline-block;
+  text-decoration: none;
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: var(--font-color-complimentary);
+  cursor: pointer;
+}
+
+.frame-6__main-img {
+  max-width: var(--img-width);
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
+}
