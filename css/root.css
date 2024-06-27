@@ -18,6 +18,8 @@
 
   --btn-hover: #ffd700;
   --btn-active: #ffb800;
+
+  --swiper-theme-color: black;
 }
 
 *,
@@ -54,49 +56,58 @@ body {
   /* min-width: 0; */
 }
 
-@media only screen and (max-width: 1162px) {
+@media only screen and (max-width: 1162px),
+  only screen and (max-height: 680px) {
   html,
   body {
     font-size: 55.7%;
   }
 }
 
-@media only screen and (max-width: 1130px) {
+/* @media only screen and (max-height: 638px) {
+  html,
+  body {
+    font-size: 55.7%;
+  }
+} */
+
+@media only screen and (max-width: 1130px),
+  only screen and (max-height: 610px) {
   html,
   body {
     font-size: 49.7%;
   }
 }
 
-@media only screen and (max-width: 930px) {
+@media only screen and (max-width: 930px), only screen and (max-height: 550px) {
   html,
   body {
     font-size: 40.7%;
   }
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 760px), only screen and (max-height: 450px) {
   html,
   body {
     font-size: 32.7%;
   }
 }
 
-@media only screen and (max-width: 606px) {
+@media only screen and (max-width: 606px), only screen and (max-height: 360px) {
   html,
   body {
     font-size: 28.7%;
   }
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 540px), only screen and (max-height: 320px) {
   html,
   body {
     font-size: 23.7%;
   }
 }
 
-@media only screen and (max-width: 452px) {
+@media only screen and (max-width: 452px), only screen and (max-height: 270px) {
   html,
   body {
     font-size: 16.7%;

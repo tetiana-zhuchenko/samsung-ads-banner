@@ -34,7 +34,21 @@
   <body class="body">
     <!-- GSAP -->
 
-    <header class="header"></header>
+    <header class="header">
+      <!-- SwiperPagination -->
+      <div class="swiper swiperPagination">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+        </div>
+        <div class="swiper-pagination swiperPagination-pagination"></div>
+      </div>
+      <!-- SwiperPagination -->
+    </header>
+
     <main class="main">
       <div class="general-wrapper">
         <!-- Frame 1 -->
@@ -115,11 +129,10 @@
             alt="bespoke jet logo"
           />
         </div>
-        <!-- Swiper -->
-        <div class="swiper">
-          <div class="swiper-wrapper">
-            <!-- Frame 2 -->
-            <div class="swiper-slide frame-2">
+        <!-- SwiperText -->
+        <div class="swiper swiperText">
+          <div class="swiper-wrapper swiperText-wrapper">
+            <div class="swiper-slide swiperText-slide">
               <div class="frame-2__about">
                 <p class="frame-2__about-text">
                   “The first time I used the Samsung Bespoke Jet™,
@@ -140,17 +153,8 @@
                   >
                 </p>
               </div>
-
-              <img
-                class="frame-2__main-img"
-                src="./images/frames/frame_2.jpg"
-                alt="vacuum"
-              />
             </div>
-            <!-- Frame 2 -->
-
-            <!-- Frame 3 -->
-            <div class="swiper-slide frame-3">
+            <div class="swiper-slide swiperText-slide">
               <div class="frame-3__about">
                 <p class="frame-3__about-text">
                   “If you’re an over-cleaner, like myself, you’ll nerd
@@ -171,16 +175,8 @@
                   >
                 </p>
               </div>
-              <img
-                class="frame-3__main-img"
-                src="./images/frames/frame_3.jpg"
-                alt="vacuum"
-              />
             </div>
-            <!-- Frame 3 -->
-
-            <!-- Frame 4 -->
-            <div class="swiper-slide frame-4">
+            <div class="swiper-slide swiperText-slide">
               <div class="frame-4__about">
                 <p class="frame-4__about-text">
                   “Both the floor and pet hair attachments are
@@ -203,16 +199,8 @@
                   >
                 </p>
               </div>
-              <img
-                class="frame-4__main-img"
-                src="./images/frames/frame_4.jpg"
-                alt="vacuum"
-              />
             </div>
-            <!-- Frame 4 -->
-
-            <!-- Frame 5 -->
-            <div class="swiper-slide frame-5">
+            <div class="swiper-slide swiperText-slide">
               <div class="frame-5__about">
                 <p class="frame-5__about-text">
                   “When I learned the Samsung Bespoke Vac cleaner itself
@@ -239,16 +227,8 @@
                   >
                 </p>
               </div>
-              <img
-                class="frame-5__main-img"
-                src="./images/frames/frame_5.jpg"
-                alt="vacuum"
-              />
             </div>
-            <!-- Frame 5 -->
-
-            <!-- Frame 6 -->
-            <div class="swiper-slide frame-6">
+            <div class="swiper-slide swiperText-slide">
               <div class="frame-6__about">
                 <p class="frame-6__about-text">
                   “Because it’s so nice-looking, it can live right in the
@@ -266,6 +246,56 @@
                   >
                 </p>
               </div>
+            </div>
+          </div>
+        </div>
+        <!-- SwiperText -->
+
+        <!-- SwiperImg -->
+        <div class="swiper swiperImg">
+          <div class="swiper-wrapper">
+            <!-- Frame 2 -->
+            <div class="swiper-slide frame-2">
+              <img
+                class="frame-2__main-img"
+                src="./images/frames/frame_2.jpg"
+                alt="vacuum"
+              />
+            </div>
+            <!-- Frame 2 -->
+
+            <!-- Frame 3 -->
+            <div class="swiper-slide frame-3">
+              <img
+                class="frame-3__main-img"
+                src="./images/frames/frame_3.jpg"
+                alt="vacuum"
+              />
+            </div>
+            <!-- Frame 3 -->
+
+            <!-- Frame 4 -->
+            <div class="swiper-slide frame-4">
+              <img
+                class="frame-4__main-img"
+                src="./images/frames/frame_4.jpg"
+                alt="vacuum"
+              />
+            </div>
+            <!-- Frame 4 -->
+
+            <!-- Frame 5 -->
+            <div class="swiper-slide frame-5">
+              <img
+                class="frame-5__main-img"
+                src="./images/frames/frame_5.jpg"
+                alt="vacuum"
+              />
+            </div>
+            <!-- Frame 5 -->
+
+            <!-- Frame 6 -->
+            <div class="swiper-slide frame-6">
               <img
                 class="frame-6__main-img"
                 src="./images/frames/frame_6.jpg"
@@ -275,10 +305,7 @@
             <!-- Frame 6 -->
           </div>
 
-          <!-- If we need pagination -->
           <div class="swiper-pagination"></div>
-
-          <!-- If we need navigation buttons -->
 
           <div class="swiper-button-prev">
             <svg
@@ -320,7 +347,6 @@
             </svg>
           </div>
 
-          <!-- If we need scrollbar -->
           <div class="swiper-scrollbar"></div>
         </div>
         <!-- Swiper -->

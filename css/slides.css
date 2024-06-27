@@ -1,4 +1,4 @@
-.swiper {
+.swiperImg {
   width: var(--container-width);
   height: var(--container-height);
 }
@@ -20,4 +20,32 @@
   font-weight: 500;
   font-size: 2.3rem;
   letter-spacing: -0.3rem;
+}
+
+.swiperText {
+  width: var(--container-width);
+  height: var(--container-height);
+  position: absolute;
+}
+
+/* .swiperText-wrapper {
+  position: absolute;
+  border: 2px solid green;
+  width: 52rem;
+  height: 20rem;
+  top: 24rem;
+  left: 3.3rem;
+} */
+
+.swiperPagination {
+  width: 65rem;
+  height: 10rem;
+  position: absolute;
+}
+
+.swiperPagination-pagination {
+  top: 0.9rem !important;
+  left: 9rem !important;
+  text-align: left;
+  height: 2rem;
 }
