@@ -1,41 +1,6 @@
 .frame-2 {
   position: relative;
-
-  /* display: none; */
 }
-
-/* .frame-2__logo-samsung {
-  height: 3rem;
-  position: absolute;
-  left: 0;
-  margin-top: var(--margin-left-top);
-  margin-left: var(--margin-left-top);
-} */
-
-/* .frame-2__title {
-  position: absolute;
-  margin-left: var(--margin-left-top);
-  top: 11.5rem;
-  left: 0;
-}
-.frame-2__title-text {
-  font-family: var(--font-primary);
-  font-weight: 700;
-  font-size: 3rem;
-}
-
-.frame-2__title-sup {
-  position: absolute;
-  top: 0.5rem;
-  font-size: 1.4rem;
-  font-weight: 700;
-}
-
-
-.frame-2__logo-kitchn {
-  height: 3rem;
-  padding-right: 0.5rem;
-} */
 
 .frame-2__about {
   position: absolute;
@@ -63,33 +28,6 @@
   cursor: pointer;
 }
 
-/* .frame-2__discount-link {
-  position: absolute;
-  left: 0;
-  top: 51.5rem;
-  margin-left: var(--margin-left-top);
-  text-decoration: none;
-  padding: 2rem 2rem;
-  border: 0.2rem solid var(--font-color-primary);
-  border-radius: 5rem;
-  color: var(--font-color-primary);
-  font-family: var(--font-secondary);
-  font-weight: 500;
-  font-size: 2.5rem;
-  cursor: pointer;
-} */
-
-/* .frame-2__discount-info {
-  position: absolute;
-  margin-left: var(--margin-left-top);
-  top: 60.5rem;
-  left: 0;
-  font-family: var(--font-secondary);
-  font-weight: 700;
-  font-size: 1.2rem;
-  color: var(--font-color-complimentary);
-} */
-
 .frame-2__main-img {
   max-width: var(--img-width);
   width: 100%;
@@ -98,12 +36,3 @@
   right: 0.5rem;
   z-index: 0;
 }
-
-/* .frame-2__logo-bespoke {
-  height: 3.35rem;
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin: var(--margin-left-top);
-  z-index: 3;
-} */

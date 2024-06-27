@@ -4,8 +4,6 @@
   align-items: center;
   justify-content: space-around;
   padding: 1rem;
-  /* For correct Swiper work */
-  /* min-width: 0; */
 }
 
 .general-wrapper {
@@ -17,6 +15,15 @@
   position: relative;
 }
 
+.logo-title-wrapper {
+  position: absolute;
+  z-index: 4;
+  width: 50rem;
+  height: 30rem;
+  overflow: hidden;
+  left: var(--margin-left-top);
+}
+
 .title-read-more-page {
   margin: 2rem;
   text-align: center;
@@ -26,16 +33,28 @@
 .logo-samsung {
   height: 3rem;
   position: absolute;
-  left: 0;
   margin-top: var(--margin-left-top);
-  margin-left: var(--margin-left-top);
 }
 
 .title {
   position: absolute;
-  margin-left: var(--margin-left-top);
-  top: 11.5rem;
+  top: 9.5rem;
   left: 0;
+  animation-name: example;
+  animation-duration: 15s;
+  animation-delay: 3.5s;
+}
+
+@keyframes example {
+  0% {
+    top: 9.5rem;
+  }
+  10% {
+    top: 11.5rem;
+  }
+  100% {
+    top: 11.5rem;
+  }
 }
 
 .title__text {
@@ -60,7 +79,7 @@
 .discount-link {
   position: absolute;
   left: 0;
-  top: 51.5rem;
+  top: 50.5rem;
   margin-left: var(--margin-left-top);
   text-decoration: none;
   padding: 2rem 2rem;
@@ -71,6 +90,13 @@
   font-weight: 500;
   font-size: 2.5rem;
   cursor: pointer;
+  animation: scalingAnimation 1.5s alternate infinite ease-in-out;
+}
+
+@keyframes scalingAnimation {
+  0% {
+    transform: scale(0.9);
+  }
 }
 
 .discount-link:hover {

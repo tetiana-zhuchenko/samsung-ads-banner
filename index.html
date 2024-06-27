@@ -33,6 +33,19 @@
   </head>
   <body class="body">
     <!-- GSAP -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"
+      defer
+    ></script>
+
+    <!-- Swiper JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
+      defer
+    ></script>
+
+    <!-- App -->
+    <script src="./app.js" type="module" defer></script>
 
     <header class="header">
       <!-- SwiperPagination -->
@@ -53,29 +66,13 @@
       <div class="general-wrapper">
         <!-- Frame 1 -->
         <div class="frame-1">
-          <img
-            class="frame-1__logo-samsung"
-            src="./images/logos/samsung_logo.png"
-            alt="samsung logo"
-          />
-          <div class="frame-1__title">
-            <p class="frame-1__title-text">See why the Bespoke Jet™</p>
-            <p class="frame-1__title-text">is “so good” it made this</p>
-            <p class="frame-1__title-text">
-              <span
-                ><img
-                  class="frame-1__logo-kitchn"
-                  src="./images/logos/kitchn_logo.png"
-                  alt="kitchn logo"
-              /></span>
-              journalist cry
-            </p>
-          </div>
-          <div class="frame-1__discount">
-            <h1 class="frame-1__discount-title-bold">
-              BE<span class="frame-1__discount-title-reg">SPOKE</span> Jet™
-            </h1>
-            <p class="frame-1__discount-amount">Save $400 Now</p>
+          <div class="discount-wrapper">
+            <div class="frame-1__discount frame-1__discount-js">
+              <h1 class="frame-1__discount-title-bold">
+                BE<span class="frame-1__discount-title-reg">SPOKE</span> Jet™
+              </h1>
+              <p class="frame-1__discount-amount">Save $400 Now</p>
+            </div>
           </div>
           <p class="frame-1__discount-info">
             *See site for details, pricing from 3/2 to 3/29 while supplies last
@@ -83,7 +80,7 @@
 
           <div>
             <img
-              class="frame-1__main-img"
+              class="frame-1__main-img frame-1__main-img-js"
               src="./images/frames/frame_1.jpg"
               alt="vacuum"
             />
@@ -96,16 +93,16 @@
         </div>
         <!-- Frame 1 -->
 
-        <div class="tempprary-for-dev">
+        <div class="logo-title-wrapper">
           <img
-            class="logo-samsung"
+            class="logo-samsung logo-samsung-js"
             src="./images/logos/samsung_logo.png"
             alt="samsung logo"
           />
           <div class="title">
-            <p class="title__text">See why the Bespoke Jet™</p>
-            <p class="title__text">is “so good” it made this</p>
-            <p class="title__text">
+            <p class="title__text title-js">See why the Bespoke Jet™</p>
+            <p class="title__text title-js">is “so good” it made this</p>
+            <p class="title__text title-js">
               <span
                 ><img
                   class="title__logo-kitchn"
@@ -115,19 +112,6 @@
               journalist cry
             </p>
           </div>
-          <a class="discount-link" href="./pages/read-more.html" target="_blank"
-            >SAVE $400 NOW</a
-          >
-
-          <p class="discount-info">
-            *See site for details, pricing from 3/2 to 3/29 while supplies last
-          </p>
-
-          <img
-            class="logo-bespoke"
-            src="./images/logos/bespoke_jet_logo.png"
-            alt="bespoke jet logo"
-          />
         </div>
         <!-- SwiperText -->
         <div class="swiper swiperText">
@@ -257,50 +241,125 @@
             <!-- Frame 2 -->
             <div class="swiper-slide frame-2">
               <img
+                class="logo-bespoke"
+                src="./images/logos/bespoke_jet_logo.png"
+                alt="bespoke jet logo"
+              />
+              <img
                 class="frame-2__main-img"
                 src="./images/frames/frame_2.jpg"
                 alt="vacuum"
               />
+              <a
+                class="discount-link"
+                href="./pages/read-more.html"
+                target="_blank"
+                >SAVE $400 NOW</a
+              >
+              <p class="discount-info">
+                *See site for details, pricing from 3/2 to 3/29 while supplies
+                last
+              </p>
             </div>
             <!-- Frame 2 -->
 
             <!-- Frame 3 -->
             <div class="swiper-slide frame-3">
               <img
+                class="logo-bespoke"
+                src="./images/logos/bespoke_jet_logo.png"
+                alt="bespoke jet logo"
+              />
+              <img
                 class="frame-3__main-img"
                 src="./images/frames/frame_3.jpg"
                 alt="vacuum"
               />
+              <a
+                class="discount-link"
+                href="./pages/read-more.html"
+                target="_blank"
+                >SAVE $400 NOW</a
+              >
+              <p class="discount-info">
+                *See site for details, pricing from 3/2 to 3/29 while supplies
+                last
+              </p>
             </div>
             <!-- Frame 3 -->
 
             <!-- Frame 4 -->
             <div class="swiper-slide frame-4">
               <img
+                class="logo-bespoke"
+                src="./images/logos/bespoke_jet_logo.png"
+                alt="bespoke jet logo"
+              />
+              <img
                 class="frame-4__main-img"
                 src="./images/frames/frame_4.jpg"
                 alt="vacuum"
               />
+              <a
+                class="discount-link"
+                href="./pages/read-more.html"
+                target="_blank"
+                >SAVE $400 NOW</a
+              >
+              <p class="discount-info">
+                *See site for details, pricing from 3/2 to 3/29 while supplies
+                last
+              </p>
             </div>
             <!-- Frame 4 -->
 
             <!-- Frame 5 -->
             <div class="swiper-slide frame-5">
               <img
+                class="logo-bespoke"
+                src="./images/logos/bespoke_jet_logo.png"
+                alt="bespoke jet logo"
+              />
+              <img
                 class="frame-5__main-img"
                 src="./images/frames/frame_5.jpg"
                 alt="vacuum"
               />
+              <a
+                class="discount-link"
+                href="./pages/read-more.html"
+                target="_blank"
+                >SAVE $400 NOW</a
+              >
+              <p class="discount-info">
+                *See site for details, pricing from 3/2 to 3/29 while supplies
+                last
+              </p>
             </div>
             <!-- Frame 5 -->
 
             <!-- Frame 6 -->
             <div class="swiper-slide frame-6">
               <img
+                class="logo-bespoke"
+                src="./images/logos/bespoke_jet_logo.png"
+                alt="bespoke jet logo"
+              />
+              <img
                 class="frame-6__main-img"
                 src="./images/frames/frame_6.jpg"
                 alt="vacuum"
               />
+              <a
+                class="discount-link"
+                href="./pages/read-more.html"
+                target="_blank"
+                >SAVE $400 NOW</a
+              >
+              <p class="discount-info">
+                *See site for details, pricing from 3/2 to 3/29 while supplies
+                last
+              </p>
             </div>
             <!-- Frame 6 -->
           </div>
@@ -353,10 +412,5 @@
       </div>
     </main>
     <footer class="footer"></footer>
-
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <!-- App -->
-    <script src="./app.js" type="module" defer></script>
   </body>
 </html>
